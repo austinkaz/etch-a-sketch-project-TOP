@@ -40,7 +40,7 @@ if (!isNaN(newSize) && newSize > 0 && newSize <= 100) {
     });
 }
 
-container.style.setProperty('--grid-size', newSize);
+container.style.setProperty('--grid-size', gridSize);
 
 const resetButton = document.createElement('button');
 resetButton.textContent = 'Reset';
